@@ -1,14 +1,15 @@
 
-# Denoising Auto-Encoders - Lab
+# Denoising Autoencoders - Lab
 
 ## Introduction
 
 In this lab, we will build a simple de-noising autoencoder using a shallow architecture. Following the approach in previously seen in the section, the simple architecture can be replaced by a deep network having multiple layers to learn the intermediate representation. The basic architecture remains the same here , however, the application area changes from data compression to data de-noising. Let's get on with it . 
 
 ## Objectives
+You will be able to: 
 - Build a simple denoising Autoencoder architecture in Keras
 - Add random Gaussian Noise to a given images dataset
-- Predict a clean image from a (previously unseen) noisy image.  
+- Predict a clean image from a (previously unseen) noisy image
 
 
 ## Load necessary libraries
